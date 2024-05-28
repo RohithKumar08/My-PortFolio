@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 29rem;
+    text-align: left;
+    width: 27dvw;
+}
+
+footer .social{
+    display: flex;
+    font-size: 30px;
+}
+
+footer h4, p{
+    font-size: 12px;
+}
+
+footer .social a{
+    padding: 1px 1px 1px 1px;
+    margin-left: 0.6em;
+}

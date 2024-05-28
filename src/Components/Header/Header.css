@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains%20Mono:wght@100;300;400&display=swap');
+
+body {
+  font-family: 'JetBrains Mono', sans-serif;
+  background: #121212;
+  margin: 0;
+  color: #fff;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  height: 70dvh;
+  width: 350px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 20em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  white-space: nowrap;
+}
+
+.navbar-brand img{
+  margin-top: 15px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 1em;
+}
+
+.navbar-item {
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 0;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.navbar-item:hover,
+.navbar-item.active {
+  background-color: #333;
+  color: hsl(0, 100%, 50%);
+}
+
+

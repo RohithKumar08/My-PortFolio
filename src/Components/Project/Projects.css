@@ -1,0 +1,26 @@
+.project-text{
+    width: 50rem;
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 30rem;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .project-text h2,p{
+    width: 47rem;
+  }
+  
+  .link-display{
+    color: #ffffff;
+  }
+  
+  .text{
+    width: 51dvw;
+  }
+  
+  .text h2, p{
+    width: 51dvw;
+    text-align: left;
+  }
