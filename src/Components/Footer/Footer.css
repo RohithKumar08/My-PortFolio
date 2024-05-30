@@ -1,22 +1,36 @@
-footer{
+.footer-container {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 29rem;
+    justify-content: flex-end;
+    min-height: 100%;
+} 
+
+footer {
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    position: fixed;
+    top: 30rem;
     width: 27dvw;
 }
 
-footer .social{
+footer .social {
     display: flex;
     font-size: 30px;
+    margin-top: 0.5rem;
 }
 
-footer h4, p{
+footer h4, footer p {
     font-size: 12px;
+    margin: 0.2rem 0;
 }
 
-footer .social a{
-    padding: 1px 1px 1px 1px;
+footer .social a {
+    padding: 0.5rem;
     margin-left: 0.6em;
+    color: #333;
+}
+
+footer .social a:hover {
+    color: #007bff;
 }
