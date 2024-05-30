@@ -11,7 +11,7 @@ footer {
     text-align: left;
     width: 27dvw;
     position: fixed;
-    margin-top: 28rem;
+    top: 30rem;
 }
 
 footer .social {
