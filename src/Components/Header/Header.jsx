@@ -2,6 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 import './Header.css'
 import myImage from './mee.jpg';
+import Footer from '../Footer/Footer';
 
 const Header = () => {
   return (
@@ -20,6 +21,7 @@ const Header = () => {
           </a>
         </nav>
       </div>
+      <Footer />
     </header>
   );
 }
